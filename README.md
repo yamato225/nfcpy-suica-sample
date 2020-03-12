@@ -1,6 +1,8 @@
 nfcpy sample (suica reader)
 ======================
 
+m2wasabiさんのサンプルをpython3対応にしています。
+
 ## About  
 nfcpy 0.10.0用の Felica読み込みサンプル
 

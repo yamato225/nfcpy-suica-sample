@@ -15,8 +15,8 @@ num_blocks = 20
 
 def connected(tag):
   # tag のメソッド一覧を出す
-  print type(tag)
-  print inspect.getmembers(tag, inspect.ismethod)
+  print(type(tag))
+  print(inspect.getmembers(tag, inspect.ismethod))
 
 # 接続開始
 clf = nfc.ContactlessFrontend('usb')
